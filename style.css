@@ -1,0 +1,134 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+font-size: 13px;
+}
+.page{
+ max-width:900px;
+background-color:#ecf2f8 ;
+display:flex;
+padding:20px;
+box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.57);
+}
+
+.left-block{
+margin:50px 5px 50px 50px;
+flex-basis:77%;
+display:flex;
+flex-direction:column;
+}
+.right-block{
+margin:50px 50px 50px 5px;
+flex-basis:23%;
+
+background-color:white;
+}
+.top{
+flex-basis:50%;
+display:flex;
+flex-direction:row;
+margin-bottom:10px;
+}
+.bottom{
+flex-basis:50%;
+display:flex;
+flex-direction:row;
+}
+.p1, .p4{
+    flex-basis:71%;
+    color:white;
+    
+}
+.p2,.p3{
+    flex-basis:29%;
+    
+    
+}
+.p1{
+    margin-right:10px ;
+    background-color:#7541c8 ;
+}
+.p2{
+    background-color: #48556a;
+    color:white;
+}
+.p3{
+    margin-right:10px;
+    background-color:white;
+    
+}
+.p4{
+    background-color:#19212e ;
+}
+h4{
+    margin:15px;
+    font-size: 1.1rem;
+}
+ .text{
+    opacity: 50%;
+    margin:20px;
+    font-size: 0.79rem;
+}
+.verification{
+    opacity: 50%;
+    font-size: 0.8rem;
+}
+img{
+    border-radius: 50%;
+ margin-right:10px;
+ width:30px;
+ height:30px;
+}
+.photo-name{
+    display:flex;
+    align-items: center;
+    margin:20px 20px 0px 15px;
+}
+.name{
+    font-size:0.9rem;
+}
+.p1, .p2, .p3, .p4, .right-block{
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.57);
+}
+@media(max-width: 576px){
+     left-block,  .top, .bottom, .p1, .p2, .p3{
+        flex-direction:column;
+        width:200px;
+     }
+   .page{
+    flex-direction:column;
+    width:250px;
+    margin:40px;
+   }
+    
+    .right-block{
+        flex-direction:row;
+        margin:0 5px 40px 5px;
+    }
+    .p1{
+        margin:40px 10px 20px 5px;
+    }
+
+    .p2{
+        margin-right: 10px;
+        margin-bottom:20px;
+        margin-left:5px;
+    }
+    .p3{
+        margin-right:5px;
+        margin-left:5px;
+    }
+    .p4{
+        margin-top: 20px;
+        margin-right:-5px;
+        margin-bottom: 20px;
+        margin-left:5px;
+    }
+    .left-block, .top, .bottom{
+        margin:0;
+        
+    }
+    
+}
