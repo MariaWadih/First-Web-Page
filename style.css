@@ -5,21 +5,24 @@
 font-size: 13px;
 }
 .page{
- max-width:900px;
+
 background-color:#ecf2f8 ;
 display:flex;
 padding:20px;
-box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.57);
+
 }
 
 .left-block{
 margin:50px 5px 50px 50px;
+margin-left:10%;
+
 flex-basis:77%;
 display:flex;
 flex-direction:column;
 }
 .right-block{
-margin:50px 50px 50px 5px;
+margin:50px 10px 50px 5px;
+margin-right:20%;
 flex-basis:23%;
 
 background-color:white;
@@ -99,32 +102,37 @@ img{
      }
    .page{
     flex-direction:column;
-    width:250px;
-    margin:40px;
+    
    }
     
     .right-block{
         flex-direction:row;
         margin:0 5px 40px 5px;
+        margin-right:36%;
+        margin-left:21%
     }
     .p1{
-        margin:40px 10px 20px 5px;
+        
+        margin-left:50%;
+        margin-right:10%;
+        margin-top:40px;
+        margin-bottom: 10%;
     }
 
     .p2{
-        margin-right: 10px;
-        margin-bottom:20px;
-        margin-left:5px;
+        margin-right: 10%;
+        margin-bottom:10%;
+        margin-left:50%;
     }
     .p3{
-        margin-right:5px;
-        margin-left:5px;
+        margin-right:10%;
+        margin-left:50%;
     }
     .p4{
-        margin-top: 20px;
-        margin-right:-5px;
-        margin-bottom: 20px;
-        margin-left:5px;
+        margin-top: 10%;
+        margin-right:-50%;
+        margin-bottom:10%;
+        margin-left:50%;
     }
     .left-block, .top, .bottom{
         margin:0;
