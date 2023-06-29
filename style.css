@@ -15,6 +15,7 @@ padding:20px;
 .left-block{
 margin:50px 5px 50px 50px;
 margin-left:10%;
+margin-bottom:40%;
 
 flex-basis:77%;
 display:flex;
@@ -22,8 +23,9 @@ flex-direction:column;
 }
 .right-block{
 margin:50px 10px 50px 5px;
-margin-right:20%;
+margin-right:10%;
 flex-basis:23%;
+margin-bottom:40%;
 
 background-color:white;
 }
@@ -98,7 +100,8 @@ img{
 @media(max-width: 576px){
      left-block,  .top, .bottom, .p1, .p2, .p3{
         flex-direction:column;
-        width:200px;
+        width:430px;
+        margin:0;
      }
    .page{
     flex-direction:column;
@@ -107,32 +110,33 @@ img{
     
     .right-block{
         flex-direction:row;
-        margin:0 5px 40px 5px;
-        margin-right:36%;
-        margin-left:21%
+        margin:0 2px 40px 10px;
+       
     }
     .p1{
         
-        margin-left:50%;
-        margin-right:10%;
+        margin-left:10px;
+        margin-right:10px;
         margin-top:40px;
-        margin-bottom: 10%;
+        margin-bottom: 20px;
     }
 
     .p2{
-        margin-right: 10%;
-        margin-bottom:10%;
-        margin-left:50%;
+       
+        margin-bottom:20px;
+        margin-left:10px;
+        margin-right:10px;
     }
     .p3{
-        margin-right:10%;
-        margin-left:50%;
+       
+        margin-right:10px;
+        margin-left:10px;
     }
     .p4{
-        margin-top: 10%;
-        margin-right:-50%;
-        margin-bottom:10%;
-        margin-left:50%;
+        margin-top: 20px;
+        margin-right:-10px;
+        margin-bottom:20px;
+        margin-left:10px;
     }
     .left-block, .top, .bottom{
         margin:0;
@@ -140,3 +144,4 @@ img{
     }
     
 }
+    
